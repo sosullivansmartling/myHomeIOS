@@ -1,0 +1,48 @@
+{
+    "locales": [
+         {
+             "smartling" : "en-GB",
+             "application" : "en-GB"
+         },
+         {
+             "smartling" : "en-CA",
+             "application" : "en-CA"
+         },
+         {
+             "smartling" : "en-US",
+             "application" : "en-US"
+         },
+         {
+             "smartling" : "es-US",
+             "application" : "es-US"
+         },
+         {
+             "smartling" : "fr-CA",
+             "application" : "fr-CA"
+         },
+         {
+             "smartling" : "fr-FR",
+             "application" : "fr-FR"
+         },
+         {
+             "smartling" : "it-IT",
+             "application" : "it"
+         }
+     ],
+
+     "resourceSets": [
+         {
+             "type"                      : "ios",
+             "pathRegex"                 : "Hive\\/.*\\.lproj\\/Localizable\\.strings(dict)?",
+             "translationPathExpression" : "Hive/${locale}.lproj/${path}.${originalFile.extension}",
+             "translationCommitMessage"  : "Translations"
+         },
+         {
+             "type"                      : "ios",
+             "pathRegex"                 : "Hive\\/.*\\.lproj\\/InfoPlist\\.strings",
+             "translationPathExpression" : "Hive/${locale}.lproj/${path}.${originalFile.extension}",
+             "translationCommitMessage"  : "Translations"
+         },
+
+     ]
+}
