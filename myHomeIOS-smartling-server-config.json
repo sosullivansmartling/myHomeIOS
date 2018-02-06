@@ -33,7 +33,7 @@
      "resourceSets": [
          {
              "type"                      : "ios",
-             "pathRegex"                 : "Hive\\/.*\\.lproj\\/Localizable\\.strings(dict)?",
+             "pathRegex"                 : "Hive\\/.*\\.lproj\\/Localizable\\.strings",
              "translationPathExpression" : "Hive/${locale}.lproj/${path}.${originalFile.extension}",
              "translationCommitMessage"  : "Translations"
          },
