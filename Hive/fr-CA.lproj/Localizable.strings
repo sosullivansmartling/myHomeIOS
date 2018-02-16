@@ -1,6 +1,7 @@
 //----------------------------------------------------------------------------------------------------------------
 /* App Global Strings */
 
+
 /* Application Cancel and Save button titles */
 "application.navigation-bar-button.save.title"     = "Enregistrer";
 "application.navigation-bar-button.cancel.title"   = "Annuler";
